@@ -885,6 +885,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -904,7 +905,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: 0px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -914,11 +915,11 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   background: rgba(103, 176, 209, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -984,7 +985,6 @@ section {
 }
 
 .portfolio-details .portfolio-info ul {
-  list-style: none;
   padding: 0;
   font-size: 15px;
 }
