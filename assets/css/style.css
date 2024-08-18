@@ -1010,6 +1010,9 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.portfolio-description .imp-point {
+  color: #67b0d1;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1514,4 +1517,13 @@ section {
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
+}
+
+.cab-head h3 {
+   
+    color: #fff !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #67b0d1;
+    
 }
