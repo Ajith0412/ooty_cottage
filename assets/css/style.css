@@ -1202,9 +1202,7 @@ section {
 /*--------------------------------------------------------------
 # Cab service
 --------------------------------------------------------------*/
-.cabservice {
-  padding-bottom: 80px;
-}
+
 
 .cabservice .info-box {
   color: #444444;
@@ -1568,6 +1566,10 @@ section {
   padding-bottom: 20px;
   background: #67b0d1;
 
+}
+
+.cab-head p {
+  height: 200px;
 }
 
 #footer .footer-top .footer-contact-links a {
